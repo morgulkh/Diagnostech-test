@@ -1,0 +1,77 @@
+body {
+  font-family: 'Public Sans', sans-serif;
+  background-color: #344265;
+  .main-container {
+    width: 1110px;
+  }
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0 24px;
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 7px;
+    .logo {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .search {
+      grid-column: 4/6;
+      grid-row: 1;
+      position: relative;
+      width: 282px;
+      input {
+        width: 100%;
+        height: 39px;
+        border-radius: 10px;
+        overflow: hidden;
+        padding-left: 16px;
+        outline: none;
+      }
+      a {
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 10.5px;
+        bottom: 10.5px;
+      }
+    }
+    .phone-number {
+      grid-column: 9;
+      grid-row: 1;
+    }
+    .nav {
+      grid-column: 1/7;
+      grid-row: 2;
+      display: flex;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-self: flex-end;
+        li {
+          list-style-type: none;
+          margin: 0;
+          color: #fff;
+        }
+      }
+    }
+    .book-btn {
+      grid-column: 9;
+      grid-row: 2;
+    }
+  }
+}
+.main {
+
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
