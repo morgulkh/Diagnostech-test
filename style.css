@@ -1,9 +1,13 @@
 body {
   font-family: "Public Sans", sans-serif;
   background-color: #344265;
+  margin: 0;
 }
 body .main-container {
   width: 1110px;
+}
+body a {
+  text-decoration: none;
 }
 
 .header {
@@ -35,6 +39,7 @@ body .main-container {
   overflow: hidden;
   padding-left: 16px;
   outline: none;
+  border: none;
 }
 .header .main-container .search a {
   display: block;
@@ -46,6 +51,13 @@ body .main-container {
 .header .main-container .phone-number {
   grid-column: 9;
   grid-row: 1;
+  color: #fff;
+  font-size: 18px;
+  line-height: 47px;
+  font-weight: 800;
+}
+.header .main-container .phone-number img {
+  margin-right: 6px;
 }
 .header .main-container .nav {
   grid-column: 1/7;
@@ -68,6 +80,67 @@ body .main-container {
 .header .main-container .book-btn {
   grid-column: 9;
   grid-row: 2;
+}
+.header .main-container .book-btn img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 80px;
+}
+.main section {
+  display: flex;
+  width: 1275px;
+  justify-content: space-between;
+}
+.main section .container h1 {
+  margin: 48px 0 16px;
+  font-weight: 800;
+  font-size: 40px;
+  color: #344265;
+}
+.main section .container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 32px 0;
+  color: #485982;
+}
+.main section .container ul {
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.main section .container ul li {
+  color: #5F719F;
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.main section .container ul li img {
+  margin-right: 9px;
+  vertical-align: center;
+}
+.main section .container .request-btn {
+  display: block;
+  background-color: #485982;
+  border-radius: 12px;
+  color: #fff;
+  width: 164px;
+  padding: 9px 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+}
+.main section .container .request-btn img {
+  margin-right: 9px;
+  vertical-align: center;
 }
 
 .footer {
