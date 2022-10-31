@@ -88,12 +88,13 @@ body {
   width: 100%;
   background-color: #fff;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-bottom: 80px;
   section {
     display: flex;
     width: 1275px;
     justify-content: space-between;
+    margin-right: -165px;
     .container {
       h1 {
         margin: 48px 0 16px;
@@ -139,6 +140,9 @@ body {
           vertical-align: center;
         }
       }
+    }
+    .main-img {
+
     }
   }
 }
