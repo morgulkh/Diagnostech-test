@@ -8,6 +8,12 @@ body {
   a {
     text-decoration: none;
   }
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
 }
 .header {
   display: flex;
@@ -64,11 +70,9 @@ body {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 0;
         margin: 0;
         align-self: flex-end;
         li {
-          list-style-type: none;
           margin: 0;
           color: #fff;
         }
@@ -109,11 +113,9 @@ body {
         color: #485982;
       }
       ul {
-        padding: 0;
         margin: 0 0 40px 0;
         li {
           color: #5F719F;
-          list-style-type: none;
           margin-bottom: 20px;
           font-size: 16px;
           line-height: 20px;
@@ -149,4 +151,76 @@ body {
 .footer {
   display: flex;
   justify-content: center;
+  color: #F8F8F8;
+  padding: 56px 0 16px;
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    .footer-logo-container {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .customer, .help {
+      margin-left: 80px;
+    }
+    .social, .copyrights {
+      width: 100%;
+    }
+    h2 {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      margin: 0 0 16px 0;
+    }
+    li {
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+    .contacts {
+      margin-top: 50px;
+      .phone-number {
+        margin-bottom: 40px;
+        font-size: 18px;
+        font-weight: 800;
+        img {
+          margin-right: 6px;
+        }
+      }
+      .address {
+        margin-bottom: 32px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .email {
+        margin-bottom: 46px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    .about {
+      margin-left: auto;
+    }
+    .social {
+      display: flex;
+      justify-content: space-between;
+      .book-btn {
+        img {
+          border-radius: 12px;
+          overflow: hidden;
+        }
+      }
+      ul {
+        display: flex;
+        li {
+          margin-left: 20px;
+        }
+      }
+    }
+    .copyrights {
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
 }

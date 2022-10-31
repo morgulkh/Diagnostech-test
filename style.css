@@ -9,6 +9,12 @@ body .main-container {
 body a {
   text-decoration: none;
 }
+body ul {
+  padding: 0;
+}
+body ul li {
+  list-style-type: none;
+}
 
 .header {
   display: flex;
@@ -68,12 +74,10 @@ body a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0;
   margin: 0;
   align-self: flex-end;
 }
 .header .main-container .nav ul li {
-  list-style-type: none;
   margin: 0;
   color: #fff;
 }
@@ -112,12 +116,10 @@ body a {
   color: #485982;
 }
 .main section .container ul {
-  padding: 0;
   margin: 0 0 40px 0;
 }
 .main section .container ul li {
   color: #5F719F;
-  list-style-type: none;
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 20px;
@@ -146,6 +148,76 @@ body a {
 .footer {
   display: flex;
   justify-content: center;
+  color: #F8F8F8;
+  padding: 56px 0 16px;
+}
+.footer .main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .main-container .footer-logo-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.footer .main-container .customer, .footer .main-container .help {
+  margin-left: 80px;
+}
+.footer .main-container .social, .footer .main-container .copyrights {
+  width: 100%;
+}
+.footer .main-container h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 16px 0;
+}
+.footer .main-container li {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer .main-container .contacts {
+  margin-top: 50px;
+}
+.footer .main-container .contacts .phone-number {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.footer .main-container .contacts .phone-number img {
+  margin-right: 6px;
+}
+.footer .main-container .contacts .address {
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer .main-container .contacts .email {
+  margin-bottom: 46px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer .main-container .about {
+  margin-left: auto;
+}
+.footer .main-container .social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .main-container .social .book-btn img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.footer .main-container .social ul {
+  display: flex;
+}
+.footer .main-container .social ul li {
+  margin-left: 20px;
+}
+.footer .main-container .copyrights {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
